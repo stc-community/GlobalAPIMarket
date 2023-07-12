@@ -43,13 +43,13 @@ getServerConfig(app).then(async config => {
   setupStore(app);
 
   app.use(useI18n);
+
+  // get user info from smart contract, for nostr private key
+  await useAccountStore().init();
+
   app.mount("#app");
-
-  // init store if needed
-  useAccountStore().init();
-
-  // 尝试预获取 instance
   try {
+    // 尝试预获取 instance
     await useNostrStore().asyncGetNostrInstance();
   } catch (e) {
     // ignore

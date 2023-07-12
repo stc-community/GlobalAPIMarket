@@ -192,3 +192,8 @@ wasm:
   Capabilities: Capabilities
 
   "New Actor": New Actor
+
+user:
+  "modal title": Join CloudX3
+  "modal description": Once you click on "Join CloudX3," the platform will generate user information for you, which will be used for subsequent resource creation and management.
+  "join now": Join Now

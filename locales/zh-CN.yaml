@@ -192,3 +192,8 @@ wasm:
   Capabilities: 能力声明
 
   "New Actor": 创建Actor
+
+user:
+  "modal title": 加入 CloudX3
+  "modal description": 点击加入 CloudX3 后，平台会为你生成用户信息，用于后续的资源创建和管理
+  "join now": 现在加入
